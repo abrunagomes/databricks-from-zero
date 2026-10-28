@@ -4,26 +4,25 @@
 # environment_version = "6"
 # ///
 # MAGIC %md
-# MAGIC # 02 · Silver — limpeza e qualidade
-# MAGIC - Padroniza texto (e-mail, cidade, status)
+# MAGIC ### Silver - limpeza e qualidade
+# MAGIC - Padroniza textos (e-mail, cidade, status)
 # MAGIC - Fica só com a **versão mais recente** de cada venda
 # MAGIC - Trata desconto não informado e calcula `valor_total`
-# MAGIC - Registros inválidos vão para `silver_vendas_rejeitadas` (com o motivo), em vez de sumirem
+# MAGIC - Registros inválidos vão para `silver_vendas_rejeitadas` (com o motivo de rejeição)
 
 # COMMAND ----------
 
-dbutils.widgets.text("catalog", "workspace")
-dbutils.widgets.text("schema", "varejo")
+dbutils.widgets.text("catalog", "user_group")
+dbutils.widgets.text("schema", "project_from_zero")
 catalog = dbutils.widgets.get("catalog")
 schema = dbutils.widgets.get("schema")
 tabela = f"{catalog}.{schema}"
 
 # COMMAND ----------
 
-from pyspark.sql import functions as F
+# MAGIC %run ./utils/imports
 
-from transformacoes import limpar_clientes, limpar_vendas, verificar_taxa_rejeicao
-
+# COMMAND ----------
 
 def salvar(df, nome):
     df.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(f"{tabela}.{nome}")
@@ -41,9 +40,16 @@ salvar(rejeitadas, "silver_vendas_rejeitadas")
 # COMMAND ----------
 
 # Regra de qualidade: o job falha se mais de 10% das vendas forem rejeitadas
+
 total = spark.table(f"{tabela}.silver_vendas").count() + spark.table(f"{tabela}.silver_vendas_rejeitadas").count()
+
 n_rejeitadas = spark.table(f"{tabela}.silver_vendas_rejeitadas").count()
 taxa = verificar_taxa_rejeicao(total, n_rejeitadas, limite=0.10)
+
 print(f"Vendas: {total} · rejeitadas: {n_rejeitadas} ({taxa:.1%})")
+
+
+
+# COMMAND ----------
 
 display(spark.table(f"{tabela}.silver_vendas_rejeitadas").groupBy("motivo_rejeicao").count())
