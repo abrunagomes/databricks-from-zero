@@ -4,22 +4,24 @@
 # environment_version = "6"
 # ///
 # MAGIC %md
-# MAGIC # 03 · Gold — tabelas prontas para análise
+# MAGIC ### Gold - tabelas prontas para análise
 # MAGIC - `gold_faturamento_loja_dia`: faturamento, nº de vendas e ticket médio por loja e dia (sem cancelados)
 # MAGIC - `gold_ranking_produtos`: produtos que mais faturam
 # MAGIC - `gold_vendas_por_status`: funil de pedidos (criado, pago, enviado, cancelado)
 
 # COMMAND ----------
 
-dbutils.widgets.text("catalog", "workspace")
-dbutils.widgets.text("schema", "varejo")
+# MAGIC %run ./utils/imports
+
+# COMMAND ----------
+
+dbutils.widgets.text("catalog", "user_group")
+dbutils.widgets.text("schema", "project_from_zero")
 catalog = dbutils.widgets.get("catalog")
 schema = dbutils.widgets.get("schema")
 tabela = f"{catalog}.{schema}"
 
 # COMMAND ----------
-
-from transformacoes import faturamento_loja_dia, ranking_produtos, vendas_por_status
 
 vendas = spark.table(f"{tabela}.silver_vendas")
 lojas = spark.table(f"{tabela}.silver_lojas")

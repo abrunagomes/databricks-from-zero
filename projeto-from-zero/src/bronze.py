@@ -3,46 +3,36 @@
 # [tool.databricks.environment]
 # environment_version = "6"
 # ///
-# MAGIC %md
-# MAGIC # 01 · Bronze — ingestão do banco de dados
-# MAGIC Copia os dados do banco de origem para tabelas Delta, **sem limpar nada**, e acrescenta metadados.
-# MAGIC
-# MAGIC | Tabela | Estratégia |
-# MAGIC |---|---|
-# MAGIC | `lojas`, `produtos`, `clientes` | Carga completa (sobrescreve) |
-# MAGIC | `vendas` | **Incremental**: lê só o que mudou desde a última ingestão (coluna `atualizado_em`) e acrescenta |
-# MAGIC
-# MAGIC A origem é escolhida no widget `origem`:
-# MAGIC - `csv` (padrão): tabelas do banco exportadas para CSV e enviadas ao Volume `origem_csv` (funciona na Free Edition)
-# MAGIC - `sqlite`: banco SQLite criado pelo notebook 00, também dentro do Databricks
-# MAGIC - `mysql` / `postgres`: leitura direta do banco via JDBC (exige saída de internet liberada)
-
-# COMMAND ----------
-
 # DBTITLE 1,Cell 2
-# Databricks notebook source
 # MAGIC %md
-# MAGIC # 01 · Bronze — ingestão dos CSVs exportados do banco
-# MAGIC Lê os arquivos CSV do Volume `origem_csv` (exportados das tabelas do banco) e grava tabelas Delta,
-# MAGIC **sem limpar nada**, só acrescentando metadados de ingestão.
+# MAGIC ###Bronze - ingestão dos CSVs exportados do banco
+# MAGIC Lê os arquivos CSV do Volume `origem_csv` (exportados das tabelas do banco) e grava tabelas Delta, acrescentando metadados de ingestão.
 # MAGIC
 # MAGIC | Tabela | Estratégia |
 # MAGIC |---|---|
 # MAGIC | `lojas`, `produtos`, `clientes` | Carga completa (sobrescreve a tabela) |
 # MAGIC | `vendas` | **Incremental**: lê só linhas novas ou alteradas desde a última ingestão (coluna `atualizado_em`) e acrescenta |
 # MAGIC
-# MAGIC Para ler direto do banco por JDBC (MySQL/Postgres), veja o notebook opcional `01b_bronze_origem_banco`.
 
+# COMMAND ----------
 
-dbutils.widgets.text("catalog", "workspace")
-dbutils.widgets.text("schema", "varejo")
+# MAGIC %run ./utils/imports
+
+# COMMAND ----------
+
+# MAGIC %run ./utils/auto_loader_bronze
+
+# COMMAND ----------
+
+dbutils.widgets.text("catalog", "user_group")
+dbutils.widgets.text("schema", "project_from_zero")
 dbutils.widgets.text("volume", "ingestion_files")
-dbutils.widgets.text("arquivo_vendas", "vendas.csv")  # nome do CSV de vendas dentro do Volume
+#dbutils.widgets.text("arquivo_vendas", "vendas.csv")  # nome do CSV de vendas dentro do Volume
 
 catalog = dbutils.widgets.get("catalog")
 schema = dbutils.widgets.get("schema")
 volume = dbutils.widgets.get("volume")
-arquivo_vendas = dbutils.widgets.get("arquivo_vendas")
+#arquivo_vendas = dbutils.widgets.get("arquivo_vendas")
 
 tabela = f"{catalog}.{schema}"
 pasta = f"/Volumes/{catalog}/{schema}/{volume}"
@@ -57,7 +47,7 @@ arquivos = {
     "lojas": "lojas.csv",
     "produtos": "produtos.csv",
     "clientes": "clientes.csv",
-    "vendas": arquivo_vendas,
+    "vendas": "vendas_lote0.csv",
 }
 existentes = [f.name for f in dbutils.fs.ls(pasta)]
 faltando = [nome for nome in arquivos.values() if nome not in existentes]
