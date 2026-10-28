@@ -1,0 +1,201 @@
+id_cliente,nome,email,cidade,criado_em
+C0001,Diego Silva,diego.silva1@exemplo.com,Londrina,2026-05-20
+C0002,Samuel Souza,samuel.souza2@exemplo.com,CURITIBA,2026-01-21
+C0003,Henrique Nunes,henrique.nunes3@exemplo.com,Ponta Grossa,2024-11-05
+C0004,Samuel Rodrigues,samuel.rodrigues4@exemplo.com,Ponta Grossa,2026-08-26
+C0005,Fábio Rodrigues,fábio.rodrigues5@exemplo.com,Londrina,2025-09-22
+C0006,Diego Souza,diego.souza6@exemplo.com,Maringá,2024-12-22
+C0007,Isabela Silva,isabela.silva7@exemplo.com,Ponta Grossa,2025-08-10
+C0008,Carla Nunes,carla.nunes8@exemplo.com,Joinville,2025-08-27
+C0009,Tatiana Santos,tatiana.santos9@exemplo.com,Curitiba,2025-11-09
+C0010,Carla Santos,carla.santos10@exemplo.com,Cascavel,2024-11-20
+C0011,Lucas Oliveira,lucas.oliveira11@exemplo.com,Londrina,2024-11-07
+C0012,Carla Lima,carla.lima12@exemplo.com,Ponta Grossa,2026-03-18
+C0013,Olívia Rodrigues,olívia.rodrigues13@exemplo.com,Joinville,2026-01-20
+C0014,Karina Silva,karina.silva14@exemplo.com,Curitiba,2025-07-18
+C0015,Isabela Souza,isabela.souza15@exemplo.com,Ponta Grossa,2025-10-14
+C0016,Gabriela Almeida,gabriela.almeida16@exemplo.com,Joinville,2025-12-04
+C0017,Elisa Santos,elisa.santos17@exemplo.com,Ponta Grossa,2025-01-11
+C0018,Nicolas Lima,nicolas.lima18@exemplo.com,Londrina,2026-04-13
+C0019,Renata Almeida,  RENATA.ALMEIDA19@EXEMPLO.COM ,Curitiba,2026-03-29
+C0020,Fábio Rodrigues,fábio.rodrigues20@exemplo.com,Cascavel,2025-05-10
+C0021,Renata Pereira,renata.pereira21@exemplo.com,Florianópolis,2026-05-07
+C0022,Samuel Pereira,samuel.pereira22@exemplo.com,Maringá,2025-06-13
+C0023,Fábio Almeida,,Joinville,2025-12-06
+C0024,Renata Oliveira,renata.oliveira24@exemplo.com,Curitiba,2025-10-31
+C0025,Renata Lima,renata.lima25@exemplo.com,Maringá,2025-02-26
+C0026,Renata Silva,renata.silva26@exemplo.com,CASCAVEL,2025-08-26
+C0027,João Santos,  JOÃO.SANTOS27@EXEMPLO.COM ,Ponta Grossa,2026-06-06
+C0028,Paulo Souza,paulo.souza28@exemplo.com,Ponta Grossa,2026-04-23
+C0029,Paulo Nunes,paulo.nunes29@exemplo.com,Ponta Grossa,2025-06-25
+C0030,Gabriela Nunes,gabriela.nunes30@exemplo.com,Joinville,2025-10-17
+C0031,Mariana Costa,mariana.costa31@exemplo.com,Ponta Grossa,2025-12-22
+C0032,Henrique Souza,henrique.souza32@exemplo.com,Ponta Grossa,2025-01-07
+C0033,Henrique Silva,  HENRIQUE.SILVA33@EXEMPLO.COM ,JOINVILLE,2026-06-24
+C0034,Bruno Costa,  BRUNO.COSTA34@EXEMPLO.COM ,Londrina,2025-04-22
+C0035,Gabriela Nunes,gabriela.nunes35@exemplo.com,Ponta Grossa,2025-12-27
+C0036,Paulo Rodrigues,paulo.rodrigues36@exemplo.com,Curitiba,2025-09-04
+C0037,Nicolas Rodrigues,nicolas.rodrigues37@exemplo.com,JOINVILLE,2024-11-01
+C0038,Diego Silva,diego.silva38@exemplo.com,Maringá,2026-05-13
+C0039,Henrique Santos,henrique.santos39@exemplo.com,Cascavel,2026-02-26
+C0040,Isabela Almeida,isabela.almeida40@exemplo.com,Curitiba,2025-02-15
+C0041,Diego Silva,diego.silva41@exemplo.com,Ponta Grossa,2026-05-29
+C0042,Henrique Oliveira,henrique.oliveira42@exemplo.com,Cascavel,2025-07-18
+C0043,Bruno Oliveira,bruno.oliveira43@exemplo.com,Cascavel,2025-05-24
+C0044,João Rodrigues,joão.rodrigues44@exemplo.com,Joinville,2025-02-09
+C0045,Paulo Oliveira,paulo.oliveira45@exemplo.com,Londrina,2025-01-16
+C0046,Samuel Silva,samuel.silva46@exemplo.com,CURITIBA,2025-05-01
+C0047,Renata Nunes,renata.nunes47@exemplo.com,Ponta Grossa,2026-02-23
+C0048,Carla Lima,  CARLA.LIMA48@EXEMPLO.COM ,Florianópolis,2026-05-02
+C0049,Tatiana Santos,tatiana.santos49@exemplo.com,Curitiba,2025-06-29
+C0050,Tatiana Lima,tatiana.lima50@exemplo.com,Maringá,2025-10-15
+C0051,Henrique Pereira,henrique.pereira51@exemplo.com,Joinville,2025-05-21
+C0052,Karina Souza,,Ponta Grossa,2026-05-22
+C0053,Carla Nunes,carla.nunes53@exemplo.com,Maringá,2025-09-09
+C0054,Carla Santos,carla.santos54@exemplo.com,Londrina,2025-02-22
+C0055,João Lima,joão.lima55@exemplo.com,Florianópolis,2026-08-24
+C0056,Samuel Pereira,samuel.pereira56@exemplo.com,Curitiba,2026-04-17
+C0057,Isabela Souza,isabela.souza57@exemplo.com,Joinville,2025-11-27
+C0058,João Lima,joão.lima58@exemplo.com,Maringá,2024-11-21
+C0059,Isabela Nunes,isabela.nunes59@exemplo.com,FLORIANÓPOLIS,2024-11-21
+C0060,Nicolas Pereira,,Maringá,2024-11-18
+C0061,Isabela Oliveira,isabela.oliveira61@exemplo.com,Ponta Grossa,2025-02-04
+C0062,Ana Souza,  ANA.SOUZA62@EXEMPLO.COM ,Joinville,2025-02-20
+C0063,Bruno Costa,bruno.costa63@exemplo.com,Londrina,2026-07-21
+C0064,João Costa,joão.costa64@exemplo.com,Florianópolis,2026-07-23
+C0065,Lucas Santos,lucas.santos65@exemplo.com,Joinville,2025-02-05
+C0066,Nicolas Lima,nicolas.lima66@exemplo.com,Londrina,2026-03-04
+C0067,Nicolas Silva,nicolas.silva67@exemplo.com,Maringá,2025-07-07
+C0068,Henrique Pereira,henrique.pereira68@exemplo.com,Joinville,2026-07-24
+C0069,Paulo Santos,paulo.santos69@exemplo.com,Cascavel,2026-01-11
+C0070,Henrique Silva,henrique.silva70@exemplo.com,Cascavel,2026-06-22
+C0071,Isabela Costa,isabela.costa71@exemplo.com,Cascavel,2025-03-01
+C0072,Karina Silva,  KARINA.SILVA72@EXEMPLO.COM ,Maringá,2025-12-04
+C0073,Bruno Souza,bruno.souza73@exemplo.com,Maringá,2025-10-15
+C0074,Nicolas Lima,nicolas.lima74@exemplo.com,Curitiba,2025-01-19
+C0075,Gabriela Pereira,,CASCAVEL,2025-02-27
+C0076,Gabriela Costa,gabriela.costa76@exemplo.com,Joinville,2024-12-02
+C0077,Karina Souza,karina.souza77@exemplo.com,Maringá,2025-07-10
+C0078,Karina Rodrigues,karina.rodrigues78@exemplo.com,Ponta Grossa,2025-06-28
+C0079,Mariana Oliveira,mariana.oliveira79@exemplo.com,Maringá,2026-09-01
+C0080,João Pereira,joão.pereira80@exemplo.com,Florianópolis,2024-10-31
+C0081,Karina Almeida,karina.almeida81@exemplo.com,Joinville,2025-05-05
+C0082,Fábio Souza,fábio.souza82@exemplo.com,Joinville,2025-09-23
+C0083,Carla Santos,carla.santos83@exemplo.com,Londrina,2026-04-04
+C0084,Ana Silva,ana.silva84@exemplo.com,Cascavel,2026-06-19
+C0085,Olívia Rodrigues,olívia.rodrigues85@exemplo.com,Ponta Grossa,2025-08-04
+C0086,Paulo Rodrigues,paulo.rodrigues86@exemplo.com,Joinville,2026-05-15
+C0087,Nicolas Santos,nicolas.santos87@exemplo.com,Joinville,2026-07-12
+C0088,Samuel Santos,samuel.santos88@exemplo.com,Curitiba,2025-05-14
+C0089,Renata Nunes,renata.nunes89@exemplo.com,Florianópolis,2024-12-13
+C0090,Renata Rodrigues,renata.rodrigues90@exemplo.com,Ponta Grossa,2026-03-23
+C0091,Paulo Almeida,paulo.almeida91@exemplo.com,Londrina,2025-11-22
+C0092,Renata Almeida,renata.almeida92@exemplo.com,Maringá,2025-11-13
+C0093,Henrique Pereira,henrique.pereira93@exemplo.com,Ponta Grossa,2026-03-31
+C0094,Henrique Rodrigues,henrique.rodrigues94@exemplo.com,Joinville,2025-07-04
+C0095,Nicolas Costa,nicolas.costa95@exemplo.com,CASCAVEL,2025-06-28
+C0096,Mariana Lima,mariana.lima96@exemplo.com,Curitiba,2025-01-20
+C0097,Mariana Almeida,,Maringá,2025-07-29
+C0098,Nicolas Nunes,nicolas.nunes98@exemplo.com,Ponta Grossa,2026-01-19
+C0099,Paulo Santos,paulo.santos99@exemplo.com,CASCAVEL,2025-09-22
+C0100,Mariana Oliveira,mariana.oliveira100@exemplo.com,Londrina,2025-03-04
+C0101,Ana Rodrigues,ana.rodrigues101@exemplo.com,JOINVILLE,2024-11-12
+C0102,Nicolas Oliveira,nicolas.oliveira102@exemplo.com,LONDRINA,2025-08-09
+C0103,Karina Santos,karina.santos103@exemplo.com,Maringá,2025-08-09
+C0104,Isabela Rodrigues,isabela.rodrigues104@exemplo.com,Curitiba,2025-02-26
+C0105,Bruno Costa,bruno.costa105@exemplo.com,Curitiba,2024-11-03
+C0106,Bruno Silva,bruno.silva106@exemplo.com,Londrina,2024-12-04
+C0107,Elisa Santos,elisa.santos107@exemplo.com,Joinville,2026-01-21
+C0108,Olívia Pereira,olívia.pereira108@exemplo.com,Londrina,2026-05-07
+C0109,Fábio Pereira,  FÁBIO.PEREIRA109@EXEMPLO.COM ,Curitiba,2025-01-20
+C0110,Mariana Rodrigues,mariana.rodrigues110@exemplo.com,LONDRINA,2024-11-28
+C0111,Henrique Souza,henrique.souza111@exemplo.com,Maringá,2024-12-26
+C0112,Diego Lima,diego.lima112@exemplo.com,Maringá,2025-08-18
+C0113,Carla Nunes,carla.nunes113@exemplo.com,Curitiba,2025-04-18
+C0114,Diego Rodrigues,diego.rodrigues114@exemplo.com,Joinville,2025-05-19
+C0115,Elisa Rodrigues,elisa.rodrigues115@exemplo.com,Ponta Grossa,2025-11-29
+C0116,Vitor Nunes,vitor.nunes116@exemplo.com,Cascavel,2025-01-03
+C0117,Isabela Costa,isabela.costa117@exemplo.com,Florianópolis,2025-11-20
+C0118,Olívia Santos,olívia.santos118@exemplo.com,Ponta Grossa,2025-08-09
+C0119,Karina Silva,karina.silva119@exemplo.com,Maringá,2026-01-27
+C0120,Lucas Pereira,lucas.pereira120@exemplo.com,Ponta Grossa,2025-11-23
+C0121,Samuel Silva,samuel.silva121@exemplo.com,Londrina,2025-07-12
+C0122,Paulo Nunes,paulo.nunes122@exemplo.com,Joinville,2025-04-17
+C0123,Olívia Silva,  OLÍVIA.SILVA123@EXEMPLO.COM ,Londrina,2025-12-26
+C0124,João Lima,joão.lima124@exemplo.com,Ponta Grossa,2025-06-23
+C0125,Samuel Costa,samuel.costa125@exemplo.com,Cascavel,2025-12-18
+C0126,Henrique Souza,henrique.souza126@exemplo.com,Maringá,2025-03-02
+C0127,Fábio Santos,fábio.santos127@exemplo.com,Cascavel,2025-01-06
+C0128,Renata Lima,renata.lima128@exemplo.com,Curitiba,2025-11-02
+C0129,Henrique Costa,henrique.costa129@exemplo.com,Curitiba,2026-04-25
+C0130,Isabela Silva,isabela.silva130@exemplo.com,Ponta Grossa,2026-04-25
+C0131,Paulo Souza,paulo.souza131@exemplo.com,Ponta Grossa,2025-04-29
+C0132,Olívia Costa,olívia.costa132@exemplo.com,Curitiba,2025-04-30
+C0133,Diego Souza,diego.souza133@exemplo.com,Curitiba,2026-07-09
+C0134,Elisa Oliveira,elisa.oliveira134@exemplo.com,Maringá,2025-12-21
+C0135,Diego Nunes,diego.nunes135@exemplo.com,Ponta Grossa,2024-12-07
+C0136,Henrique Nunes,henrique.nunes136@exemplo.com,Cascavel,2025-01-07
+C0137,Nicolas Pereira,nicolas.pereira137@exemplo.com,Curitiba,2026-05-23
+C0138,Gabriela Santos,gabriela.santos138@exemplo.com,Curitiba,2026-03-08
+C0139,Samuel Souza,samuel.souza139@exemplo.com,Cascavel,2025-01-01
+C0140,Paulo Pereira,,Maringá,2025-05-25
+C0141,Carla Santos,carla.santos141@exemplo.com,Florianópolis,2025-01-06
+C0142,Gabriela Rodrigues,  GABRIELA.RODRIGUES142@EXEMPLO.COM ,Londrina,2025-12-03
+C0143,Elisa Souza,  ELISA.SOUZA143@EXEMPLO.COM ,Florianópolis,2025-01-27
+C0144,João Almeida,joão.almeida144@exemplo.com,Joinville,2025-07-16
+C0145,Isabela Nunes,isabela.nunes145@exemplo.com,Cascavel,2026-07-23
+C0146,Nicolas Costa,nicolas.costa146@exemplo.com,Curitiba,2025-01-20
+C0147,Tatiana Silva,tatiana.silva147@exemplo.com,Joinville,2025-01-19
+C0148,Bruno Oliveira,bruno.oliveira148@exemplo.com,Joinville,2025-11-21
+C0149,Fábio Lima,fábio.lima149@exemplo.com,Florianópolis,2026-05-31
+C0150,Paulo Costa,paulo.costa150@exemplo.com,Maringá,2026-03-21
+C0151,Karina Rodrigues,karina.rodrigues151@exemplo.com,Maringá,2025-07-18
+C0152,Samuel Silva,samuel.silva152@exemplo.com,Maringá,2026-05-06
+C0153,Mariana Nunes,mariana.nunes153@exemplo.com,Curitiba,2025-02-23
+C0154,Olívia Rodrigues,  OLÍVIA.RODRIGUES154@EXEMPLO.COM ,Ponta Grossa,2025-04-09
+C0155,Olívia Silva,olívia.silva155@exemplo.com,Ponta Grossa,2025-11-11
+C0156,Olívia Almeida,olívia.almeida156@exemplo.com,Joinville,2025-12-30
+C0157,Fábio Pereira,fábio.pereira157@exemplo.com,Ponta Grossa,2026-01-14
+C0158,Diego Almeida,diego.almeida158@exemplo.com,Joinville,2025-04-09
+C0159,João Nunes,joão.nunes159@exemplo.com,Cascavel,2025-05-06
+C0160,Henrique Almeida,henrique.almeida160@exemplo.com,Cascavel,2024-12-27
+C0161,Renata Oliveira,renata.oliveira161@exemplo.com,Maringá,2025-07-04
+C0162,Karina Nunes,karina.nunes162@exemplo.com,Curitiba,2025-10-31
+C0163,Tatiana Lima,tatiana.lima163@exemplo.com,Cascavel,2025-06-01
+C0164,Samuel Almeida,samuel.almeida164@exemplo.com,Ponta Grossa,2025-08-11
+C0165,Olívia Costa,olívia.costa165@exemplo.com,Joinville,2025-08-05
+C0166,Henrique Rodrigues,,Joinville,2025-08-07
+C0167,Mariana Oliveira,mariana.oliveira167@exemplo.com,Curitiba,2025-01-05
+C0168,Karina Souza,karina.souza168@exemplo.com,Cascavel,2025-05-22
+C0169,Ana Oliveira,ana.oliveira169@exemplo.com,Joinville,2026-06-17
+C0170,Paulo Pereira,paulo.pereira170@exemplo.com,Joinville,2026-06-11
+C0171,Karina Nunes,karina.nunes171@exemplo.com,Maringá,2025-04-20
+C0172,Samuel Silva,samuel.silva172@exemplo.com,Londrina,2025-11-11
+C0173,Henrique Souza,henrique.souza173@exemplo.com,Curitiba,2026-05-22
+C0174,Olívia Oliveira,olívia.oliveira174@exemplo.com,CURITIBA,2026-07-06
+C0175,João Costa,joão.costa175@exemplo.com,Londrina,2025-07-07
+C0176,Tatiana Oliveira,tatiana.oliveira176@exemplo.com,Curitiba,2025-08-06
+C0177,Vitor Santos,vitor.santos177@exemplo.com,Ponta Grossa,2025-05-17
+C0178,Isabela Almeida,isabela.almeida178@exemplo.com,Curitiba,2025-05-13
+C0179,João Nunes,joão.nunes179@exemplo.com,Cascavel,2025-01-08
+C0180,João Rodrigues,joão.rodrigues180@exemplo.com,Cascavel,2026-02-10
+C0181,Mariana Almeida,  MARIANA.ALMEIDA181@EXEMPLO.COM ,Cascavel,2025-01-21
+C0182,João Pereira,,Florianópolis,2025-11-24
+C0183,Ana Lima,ana.lima183@exemplo.com,Florianópolis,2026-07-13
+C0184,Vitor Almeida,vitor.almeida184@exemplo.com,Maringá,2026-01-09
+C0185,Vitor Costa,vitor.costa185@exemplo.com,Londrina,2026-04-14
+C0186,Diego Silva,diego.silva186@exemplo.com,CASCAVEL,2025-08-24
+C0187,Elisa Souza,elisa.souza187@exemplo.com,Maringá,2026-03-06
+C0188,Gabriela Oliveira,gabriela.oliveira188@exemplo.com,Maringá,2025-11-26
+C0189,Fábio Pereira,fábio.pereira189@exemplo.com,Cascavel,2025-11-03
+C0190,Karina Souza,karina.souza190@exemplo.com,Curitiba,2026-01-13
+C0191,Mariana Nunes,mariana.nunes191@exemplo.com,Florianópolis,2025-12-05
+C0192,Samuel Souza,samuel.souza192@exemplo.com,Joinville,2025-12-07
+C0193,Tatiana Rodrigues,tatiana.rodrigues193@exemplo.com,Maringá,2026-01-05
+C0194,Paulo Silva,paulo.silva194@exemplo.com,Ponta Grossa,2024-12-16
+C0195,Henrique Souza,henrique.souza195@exemplo.com,Cascavel,2025-10-27
+C0196,Nicolas Souza,nicolas.souza196@exemplo.com,Curitiba,2025-04-15
+C0197,Diego Souza,diego.souza197@exemplo.com,Ponta Grossa,2025-05-25
+C0198,Lucas Nunes,lucas.nunes198@exemplo.com,Joinville,2025-07-04
+C0199,Diego Almeida,diego.almeida199@exemplo.com,MARINGÁ,2025-08-18
+C0200,Gabriela Almeida,gabriela.almeida200@exemplo.com,Londrina,2026-05-23
