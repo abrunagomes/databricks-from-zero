@@ -1,0 +1,21 @@
+id_produto,nome_produto,categoria,preco_lista
+P01,Café torrado 500g,Mercearia,18.9
+P02,Arroz 5kg,Mercearia,29.9
+P03,Feijão 1kg,Mercearia,8.5
+P04,Leite integral 1L,Laticínios,5.2
+P05,Queijo mussarela 500g,Laticínios,24.0
+P06,Iogurte natural,Laticínios,3.8
+P07,Detergente,Limpeza,2.9
+P08,Sabão em pó 1kg,Limpeza,14.5
+P09,Desinfetante 2L,Limpeza,9.9
+P10,Shampoo 350ml,Higiene,16.9
+P11,Sabonete,Higiene,2.5
+P12,Creme dental,Higiene,5.9
+P13,Refrigerante 2L,Bebidas,9.5
+P14,Suco de uva 1L,Bebidas,11.9
+P15,"Água mineral 1,5L",Bebidas,3.2
+P16,Pão de forma,Padaria,8.9
+P17,Biscoito recheado,Padaria,4.2
+P18,Macarrão 500g,Mercearia,5.5
+P19,Óleo de soja 900ml,Mercearia,7.9
+P20,Açúcar 1kg,Mercearia,5.1
