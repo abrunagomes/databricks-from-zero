@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # 03 · Gold — tabelas prontas para análise
 # MAGIC - `gold_faturamento_loja_dia`: faturamento, nº de vendas e ticket médio por loja e dia (sem cancelados)

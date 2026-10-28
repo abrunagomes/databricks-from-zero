@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # 02 · Silver — limpeza e qualidade
 # MAGIC - Padroniza texto (e-mail, cidade, status)
